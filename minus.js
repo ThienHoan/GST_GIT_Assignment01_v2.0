@@ -9,5 +9,5 @@ function minus() {
     }
   
     let result = a - b;
-    document.getElementById("result").innerText = "Kết quả trừ: " + result;
+    document.getElementById("result").innerText = "Kết quả trừ:  " + result;
   }
