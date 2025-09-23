@@ -1,5 +1,4 @@
-// plus.js
-function plus() {
+function multiply() {
   let a = parseFloat(document.getElementById("a").value);
   let b = parseFloat(document.getElementById("b").value);
 
@@ -8,6 +7,6 @@ function plus() {
     return;
   }
 
-  let result = a + b;
-  document.getElementById("result").innerText = "Kết quả cộng: " + result;
+  let result = a * b;
+  document.getElementById("result").innerText = "Kết quả nhân: " + result;
 }
