@@ -1,4 +1,4 @@
-package HuynhNgocSon.module1
+package DauDoanHoanThien.module1
 
 interface Fibonacci {
     fun fibonacci(n: Int, flag: Boolean): Int
